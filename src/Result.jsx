@@ -15,12 +15,12 @@ function Result() {
           <div className="result-icon"></div>
           {score > 2 ? (
             <>
-              <img src="./src/assets/cc.png" alt="Image description" />
+              <img src=".https://raw.githubusercontent.com/ahmedhassan5291520/Quiz-App-using-Context-api/main/src/assets/cc.png" alt="Image description" />
               <div className="result-text">Congratulations!</div>
             </>
           ) : (
             <>
-              <img src="./src/assets/ww.png" alt="Image description" />
+              <img src="https://raw.githubusercontent.com/ahmedhassan5291520/Quiz-App-using-Context-api/main/src/assets/ww.png" alt="Image description" />
               <div className="result-text">Not Satisfactory! {name1}</div>
             </>
           )}
