@@ -1,0 +1,142 @@
+body {
+  background: linear-gradient(to bottom, #6666ff 0%, #ff99cc 100%);   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+
+}
+
+.container {
+  background: linear-gradient(to bottom right, #f0f0f0, #d0d0d0);
+  padding: 70px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0.5, 0.5, 0.6);
+  width: 350px;
+  text-align: center;
+  margin: 50px;
+
+}
+
+input {
+  width:90%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  align-items: center;
+  margin-left: auto;
+margin-right: auto;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+
+}
+
+
+.result-container {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #333;
+}
+
+.option-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.option-item {
+  cursor: pointer;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.option-item:hover {
+  background-color: #f0f0f0;
+}
+
+.option-item.selected {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  border: 1px solid white; /* Optional: Add a border around each option */
+  margin-bottom: 10px; /* Adjust spacing between options */
+  padding: 10px; /* Add padding inside each option */
+  background-color:white ;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+li:hover,.select {
+  background-color: #afabab; /* Lighter gray on hover */
+}
+
+li:focus {
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0 0 0 2px #007bff; /* Add a blue outline */
+}
+.result {
+  margin-top: 10px;
+}
+
+.result-icon {
+  font-size: 100px;
+  color: green; /* Change to red for incorrect */
+}
+
+.result-text {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.score, .points {
+  font-size: 36px;
+  margin-top: 30px;
+}
+img {
+  width: 80px;
+  height: 80px;
+}
+.container_quiz{
+  background: linear-gradient(to bottom right, #f0f0f0, #d0d0d0);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0.5, 0.5, 0.6);
+  width: 350px;
+  text-align: center;
+  margin: 50px;
+
+}
+
+.result-container{
+
+
+}
